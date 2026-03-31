@@ -1,10 +1,10 @@
-# 🌽 Corn Stover Fermentation & Digestibility Analysis
+# Corn Stover Fermentation & Digestibility Analysis
 
 **A Data Analytics Portfolio Project | Michael Wuaku**
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project transforms findings from a peer-reviewed research publication into a structured data analytics workflow, demonstrating proficiency in **SQL database design**, **analytical querying**, and **Power BI dashboard development**.
 
@@ -14,7 +14,7 @@ This project transforms findings from a peer-reviewed research publication into 
 
 ---
 
-## 🎯 Business / Research Questions Answered
+## Business / Research Questions Answered
 
 1. **Which fungal strain most effectively improved corn stover digestibility?**
 2. **At what incubation week does each strain reach peak performance?**
@@ -24,7 +24,7 @@ This project transforms findings from a peer-reviewed research publication into 
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 corn-stover-analysis/
@@ -44,7 +44,7 @@ corn-stover-analysis/
 
 ---
 
-## 🛠️ Tools & Skills Demonstrated
+## Tools & Skills Demonstrated
 
 | Tool | Usage |
 |---|---|
@@ -55,7 +55,7 @@ corn-stover-analysis/
 
 ---
 
-## 🗃️ Database Design
+## Database Design
 
 The SQL database follows a **star schema** with one dimension table and three fact tables:
 
@@ -76,7 +76,7 @@ fungal_strains (dimension)
 
 ---
 
-## 📊 SQL Highlights
+## SQL Highlights
 
 ### Window Functions
 ```sql
@@ -109,7 +109,7 @@ ROUND((g.ivtddm_pct * 0.4) + (fd.dmd_pct * 0.4) + (g.gas_ml_per_g_dm * 0.2), 2) 
 
 ---
 
-## 📈 Power BI Dashboard Pages
+## Power BI Dashboard Pages
 
 | Page | Visuals |
 |---|---|
@@ -120,7 +120,7 @@ ROUND((g.ivtddm_pct * 0.4) + (fd.dmd_pct * 0.4) + (g.gas_ml_per_g_dm * 0.2), 2) 
 
 ---
 
-## 🔑 Key Findings (Data Insights)
+## Key Findings (Data Insights)
 
 - **P. pulmonarius (P2) at Week 6** achieved the highest dry matter digestibility (36.2%) and gas production (92.1 mL/g DM), making it the top performer overall
 - **P2 progressively shifted** fermentation from acetate-dominant to propionate-dominant — a more energy-efficient profile for ruminants
@@ -129,7 +129,7 @@ ROUND((g.ivtddm_pct * 0.4) + (fd.dmd_pct * 0.4) + (g.gas_ml_per_g_dm * 0.2), 2) 
 
 ---
 
-## ▶️ How to Run the SQL
+## How to Run the SQL
 
 1. Install [SQLite](https://www.sqlite.org/download.html) or use [DB Browser for SQLite](https://sqlitebrowser.org/) (free GUI)
 2. Open a new database
@@ -138,16 +138,16 @@ ROUND((g.ivtddm_pct * 0.4) + (fd.dmd_pct * 0.4) + (g.gas_ml_per_g_dm * 0.2), 2) 
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Michael Wuaku**
 Department of Animal Sciences, North Carolina A&T State University
-📧 Connect via [LinkedIn](#) | 🐙 [GitHub](#)
+Connect via [LinkedIn](#) | [GitHub](#)
 
 ---
 
 *This project is based on open-access research published under the Creative Commons Attribution License (CC BY 4.0).*
-## 📊 Dashboard Screenshots
+## Dashboard Screenshots
 
 ### Overview
 ![Overview](Screenshot%202026-03-30%20235804.png)
