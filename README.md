@@ -147,3 +147,16 @@ Department of Animal Sciences, North Carolina A&T State University
 ---
 
 *This project is based on open-access research published under the Creative Commons Attribution License (CC BY 4.0).*
+## 📊 Dashboard Screenshots
+
+### Overview
+![Overview](Screenshot%202026-03-30%20235804.png)
+
+### Digestibility Trends
+![Digestibility Trends](Screenshot%202026-03-30%20235928.png)
+
+### VFA Fermentation Profile
+![VFA Fermentation Profile](Screenshot%202026-03-30%20235953.png)
+
+### Best Treatment Finder
+![Best Treatment Finder](Screenshot%202026-03-30%20000100.png)
